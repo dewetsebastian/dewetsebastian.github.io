@@ -139,6 +139,13 @@ input, select, textarea {
 
 		}
 
+		 
+		@media screen and (max-width: 600px) {
+			.column {
+				width: 100%;
+			}
+		}	 
+
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
@@ -689,6 +696,7 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 			width: 100%;
 		}
+
 
 			.image.fit img {
 				width: 100%;
@@ -1667,3 +1675,32 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.row {
+			display: flex;
+		  }
+		  
+		  .column-education {
+			flex: 70%;
+		  }
+		  .column-education-2 {
+			flex: 30%;
+		  }
+
+		.uni-name{
+			font-size: 1.1rem ;
+		}
+
+		.thing{
+			font-size: 0.9rem;
+		}
+
+		.img-stellenbosch{
+			 max-width: 40%;
+			 max-height: auto;
+		}
+
+		.img-me{
+			max-width: 40%;
+			max-height: auto;
+	   }
